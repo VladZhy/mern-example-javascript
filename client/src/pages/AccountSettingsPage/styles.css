@@ -1,0 +1,17 @@
+.account-settings-page-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  max-width: 18.75em;
+  min-height: calc(100vh - 80px);
+}
+
+.account-settings-page__heading {
+  margin-bottom: 0.5em;
+}
+
+.account-settings-page__form {
+  width: 100%;
+}

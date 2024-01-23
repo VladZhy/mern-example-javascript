@@ -1,0 +1,11 @@
+#root-layout-header-guest-menu__sign-up-link {
+  background-color: black;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  #root-layout-header-guest-menu__sign-up-link {
+    background-color: white;
+    color: black;
+  }
+}

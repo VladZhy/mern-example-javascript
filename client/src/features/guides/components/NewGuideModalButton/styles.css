@@ -1,0 +1,14 @@
+.new-guide-modal-button__modal {
+  min-width: 37.5em;
+  width: 40%;
+}
+
+.new-guide-modal-button__modal__header,
+.new-guide-modal-button__modal__body__form__field,
+.new-guide-modal-button__modal__body__form__response-message {
+  margin-bottom: 0.875em;
+}
+
+.new-guide-modal-button__modal__body__form {
+  width: 100%;
+}

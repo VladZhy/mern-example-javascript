@@ -1,0 +1,101 @@
+:root {
+  font-size: 62.5%;
+
+  --font-size-xxl: 3.6rem;
+  --font-size-xl: 3rem;
+  --font-size-l: 2.4rem;
+  --font-size-md: 1.8rem;
+  --font-size-default: 1.6rem;
+  --font-size-s: 1.4rem;
+  --font-size-xs: 1.2rem;
+  --font-size-xxs: 1rem;
+}
+
+html {
+  box-sizing: border-box;
+  text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: var(--font-size-default);
+  font-weight: 400;
+  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  margin: 0;
+}
+
+header {
+  position: relative;
+  display: flex;
+  height: 5em;
+  width: 100%;
+  align-items: center;
+  box-shadow: 0 1px 1px 1px lightgrey;
+}
+
+nav {
+  margin-left: auto;
+  margin-right: 3.75em;
+}
+
+h1 {
+  font-size: var(--font-size-xxl);
+  font-weight: 500;
+  line-height: 1.2;
+  margin: 1rem 0;
+}
+
+a:hover,
+button:active,
+button:focus,
+button:hover,
+button:disabled {
+  opacity: 0.5;
+}
+
+button,
+input,
+textarea {
+  font-size: inherit;
+  font-family: inherit;
+}
+
+button,
+input {
+  line-height: inherit;
+}
+
+button,
+label {
+  font-weight: 500;
+  cursor: pointer;
+}
+
+button {
+  border: 0.125em solid;
+  border-radius: 0.3125em;
+  padding: 0.75em 1.25em;
+  user-select: none;
+  transition: 0.3s;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+textarea {
+  font-weight: inherit;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    height: 3.75em;
+  }
+}

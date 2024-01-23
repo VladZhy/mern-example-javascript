@@ -1,0 +1,10 @@
+.icon-button__icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 1.125em;
+}
+
+.icon-button__label {
+  padding-left: 1.75em;
+}

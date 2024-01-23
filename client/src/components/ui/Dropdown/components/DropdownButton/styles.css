@@ -1,0 +1,10 @@
+.dropdown-button__label {
+	padding-right: 1.75em;
+}
+
+.dropdown-button__icon {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 1.125em;
+}

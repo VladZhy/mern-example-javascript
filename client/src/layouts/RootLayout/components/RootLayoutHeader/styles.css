@@ -1,0 +1,31 @@
+.root-layout-header__logo-link {
+	margin-left: 3.75em;
+}
+
+.root-layout-header__logo {
+	height: 3.75em;
+	width: 3.75em;
+	vertical-align: middle;
+}
+
+@media screen and (max-width: 768px) {
+	.root-layout-header__logo-link {
+		margin-left: 1.25em;
+	}
+
+	.root-layout-header__logo {
+		height: 3em;
+	}
+
+	.root-layout-header__mobile-navbar-button {
+		margin-right: 1.25em;
+		margin-left: auto;
+		height: 2.25em;
+		width: 2.25em;
+	}
+
+	.root-layout-header__navbar-menu {
+		top: 3.875em;
+		min-height: calc(100vh - 3.875em);
+	}
+}

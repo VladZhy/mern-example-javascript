@@ -1,0 +1,13 @@
+.root-layout-header-user-menu__link--mobile {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .root-layout-header-user-menu__link--mobile {
+    display: list-item;
+  }
+
+  .root-layout-header-user-menu__link--desktop {
+    display: none;
+  }
+}
